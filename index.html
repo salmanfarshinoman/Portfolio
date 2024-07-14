@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Salman Farshi Noman</title>
+
+    <link rel="icon" type="png|image" href="IMAGES/saianon.png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <canvas id="matrixCanvas"></canvas>
+
+    <header class="header">
+        <a href="#" class="logo">Dorbesh</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#skill" style="--i:3;">Skills</a>
+            <a href="#project" style="--i:4;">Projects</a>
+            <a href="#review" style="--i:5;">Reviews</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+
+        <div class="home-content" data-scroll data-scroll-speed="-5" >
+            <h3 class="mu">Hello, It's me</h3>
+            <h1>Salman Farshi Noman</h1>
+            <h3>And I'm a <span class="pro-text">
+
+              <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                <script>
+                        var typed = new Typed(".pro-text", {
+                          strings: [
+                        "Ethical Hacker",
+                        "Cyber Security Specialist",
+                        "Bug Hunter",
+                        "Cyber Crime Investigator",
+                        "OSINT",
+                        "Frontend Developer",
+                        "Cybersecurity Engineer",
+                        "Linux Administrator",
+                        ],
+                      typeSpeed: 100,   
+                      backSpeed: 100,   
+                      backDelay: 1000,  
+                      loop: true        
+                        });
+                    </script>
+            </span></h3>
+            
+            <p>  &emsp; &emsp;This portfolio highlights my passion for cybersecurity and my commitment to ethical practices. <br>
+                &emsp; &emsp;I have acquired fundamental knowledge and skills in various areas of ethical hacking, 
+                allowing me to contribute to the security of organizations and individuals. <br>
+                &emsp; &emsp;Hacked multiple Wifi network that were based on WPS protocol.  
+            </p>
+
+
+        </div>
+
+        <div class="home-img">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+                <div class="image">
+                    <img src="IMAGES/saianon.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <br>
+        <p>I am a cybersecurity specialist and ethical hacker with over 5 years of experience in safeguarding digital environments. My expertise spans the realms of threat detection, penetration testing, and ensuring robust security protocols. Recently, I've been focusing on reputation management, leveraging my skills to protect and enhance online brand integrity. Passionate about staying ahead in the ever-evolving field of cybersecurity, I am dedicated to securing digital landscapes for businesses and individuals alike.</p>
+    </section>
+
+
+ <section id="skill" class="skills">
+        <h2>Skills</h2>
+        <div class="skill-container">
+            <div class="skill-box">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>Ethical Hacking</li>
+                    <li>Network Security</li>
+                    <li>Cyber Security Specialist</li>
+                    <li>Penetration Testing</li>
+                    <li>Linux Administration</li>
+                    <li>Cyber Crime Investigation</li>
+                    <li>Bug Hunter</li>
+                    <li>Programming (Python, JavaScript)</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Critical Thinking</li>
+                    <li>Communication</li>
+                    <li>Team Collaboration</li>
+                    <li>Adaptability</li>
+                    <li>Continuous Learning</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<section id="project" class="projects">
+    <h2>Projects</h2>
+    <div class="carousel-container">
+      <button class="carousel-control prev" onclick="prevSlide('project-carousel')">&#10094;</button>
+      <div class="carousel" id="project-carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="project_img/1.png" alt="Project 1">
+            <div class="carousel-caption">
+              <h3>Project 1: Cyber Safety, SQL Injection by tools</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="project_img/2.png" alt="Project 2">
+            <div class="carousel-caption">
+              <h3>Project 2: Manual  SQL Injection</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="project_img/3.png" alt="Project 3">
+            <div class="carousel-caption">
+              <h3>Project 3: Penetration Testing</h3>
+            </div>
+          </div>
+          <!-- Add more project items as needed -->
+        </div>
+      </div>
+      <button class="carousel-control next" onclick="nextSlide('project-carousel')">&#10095;</button>
+    </div>
+  </section>
+
+  <section id="review" class="reviews">
+    <h2>Reviews</h2>
+    <div class="carousel-container">
+      <button class="carousel-control prev" onclick="prevSlide('review-carousel')">&#10094;</button>
+      <div class="carousel" id="review-carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="review_img/1.png" alt="Review 1">
+            <div class="carousel-caption">
+              <h3>Review 0</h3>
+            </div>
+          </div>
+          <!-- Add more review items as needed -->
+        </div>
+      </div>
+      <button class="carousel-control next" onclick="nextSlide('review-carousel')">&#10095;</button>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+      <section id="contact" class="contact">
+    <div class="home-my">
+      <a href="https://www.linkedin.com/in/salman-farshi-noman-3b0039206/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://wa.me/+8801997042585" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100010054650124/" target="_blank"><i class='bx bxl-facebook'></i></a>
+      <a href="mailto:salmanfarshinoman@gmail.com/" target="_blank"><i class='bx bxl-gmail'></i></a>
+    </div>
+  </section>
+
+
+
+
+
+  <canvas id="matrixCanvas"></canvas>
+  
+  <footer>
+    <p>&copy; 2024  All rights reserved</p>
+  </footer>
+
+
+    <script src="JS/typhographic.js"></script>
+    <script src="JS/matrix.js"></script>
+    <script src="JS/script.js"></script>
+
+</body> 
+</html> 
